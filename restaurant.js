@@ -10,7 +10,6 @@ const fishMenu = (pricePoint) => {
 
 <article class="menu">`;
 
-console.log(todaysFish)
     todaysFish.forEach(fish => {
         menuHTML += `
 <h2>${fish.species}</h2>
@@ -21,7 +20,6 @@ console.log(todaysFish)
     
     menuHTML += `</article>`
 
-    console.log(menuHTML)
     return menuHTML;
 
 }
